@@ -1,0 +1,333 @@
+html{scroll-behavior:smooth;}
+
+body{background:linear-gradient(135deg,#3F2A6D,#5A3D8C);font-family:sans-serif;height:4600px;}
+.container{width:1000px;height:4600px;margin:0 auto;}
+.home{width:1000px;height:700px;}
+.menunav {
+  width: 1000px;
+  height: 50px;
+ 
+
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: 9999;
+}
+
+.menu-gap {
+  height: 20px; 
+}
+.home0{width:1000px;height:550px;margin-top:20px;}
+.menu1{width:240px;height:50px;float:left;}
+.menu1 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:45px;text-align:left;color:#341539;margin-top:3px;margin-left:20px;}
+.menunav1{width:130px;height:40px;background-color:#AF82BA;float:left;margin-left:20px;margin-top:5px;border-radius:20px;}
+.menunav1 h1{font-family:sans-serif;font-size:18px;color:white;text-align:center;margin-top:8px;}
+.menunav1 h1 a{color:white;text-decoration:none;font-size:18px;transition:0.3s;}
+.menunav1 h1 a:hover{color:#341539;transform:scale(1.1);display:inline-block;}
+.home1{width:500px;height:550px;float:left;}
+.home1 h1{font-family:sans-serif;color:white;font-size:20px;text-align:left;margin-top:100px;margin-left:10px;}
+.home1 h2{font-family:"Trebuchet MS","Segoe UI",sans-serif;color:white;font-size:60px;text-align:left;margin-top:1px;margin-left:10px;}
+.home1 h3{font-family:"Trebuchet MS","Segoe UI",sans-serif;color:white;font-size:30px;text-align:left;margin-top:5px;margin-left:10px;}
+.home1 p{font-family:sans-serif;color:white;font-size:20px;text-align:left;margin-left:10px;}
+.resume{width:130px;height:40px;background-color:#AF82BA;margin-top:50px;margin-left:300px;border-radius:20px;float:left;}
+.resume h1{font-family:sans-serif;font-size:18px;color:white;text-align:center;margin-top:5px;}
+.resume h1 a{color:white;text-decoration:none;font-size:18px;transition:0.3s;}
+.resume h1 a:hover{color:#341539;transform:scale(1.1);display:inline-block;}
+.home2{width:500px;height:550px;float:left;}
+.home2 img{width:500px;height:500px;margin-top:30px;}
+
+.about{width:1000px;height:360px;background-color:#AF82BA;border-radius:20px;margin-top:10px;}
+.about h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:45px;text-align:left;color:#341539;margin-top:3px;margin-left:10px;}
+.about p{font-family:sans-serif;font-size:20px;text-align:left;color:#341539;margin-top:3px;margin-left:10px;}
+
+.project{width:1000px;height:2410px;margin-top:90px;}
+.project h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:45px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project1{width:1000px;height:300px;margin-top:30px;}
+.project1 img{width:300px;height:200px;border-radius:10px;}
+.project1 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:20px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project1 h2{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:30px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project2{width:1000px;height:480px;margin-top:30px;}
+.project2 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:20px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project3{width:1000px;height:230px;margin-top:30px;}
+.project3 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:20px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project4{width:1000px;height:850px;margin-top:30px;}
+.project4 h2{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:30px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project4 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:20px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project41{width:1000px;height:350px;}
+.project42{width:500px;height:300px;float:left;}
+.project42 img{width:500px;height:300px;float:left;}
+.project43{width:500px;height:300px;float:left;}
+.project43 p{font-family:sans-serif;font-size:20px;text-align:left;color:white;margin-top:30px;margin-left:20px;}
+.demo{width:130px;height:40px;background-color:#AF82BA;margin-left:20px;margin-top:5px;border-radius:20px;}
+.demo h1{font-family:sans-serif;font-size:22px;color:white;text-align:left;float:left;}
+.demo h1 a{color:white;text-decoration:none;font-size:18px;transition:0.3s;}
+.demo h1 a:hover{color:#341539;transform:scale(1.1);display:inline-block;}
+.project5{width:1000px;height:400px;}
+.project5 h2{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:32px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.project5 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:25px;text-align:left;color:white;margin-top:3px;margin-left:20px;margin-top:20px;}
+.project5 p{font-family:sans-serif;color:white;font-size:18px;text-align:left;margin-left:15px;}
+
+
+.skill{width:1000px;height:510px;border-radius:20px;margin-top:100px;background:#AF82BA;}
+.skill0{width:1000px;height:50px;}
+.skill0 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:45px;text-align:left;color:#341539;margin-top:3px;margin-left:20px;}
+.skill1{width:320px;height:450px;float:left;margin-left:10px;}
+.skill1 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:25px;text-align:left;color:#341539;margin-top:3px;margin-left:20px;margin-top:20px;}
+.skill1 h2{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:20px;text-align:left;color:#341539;margin-top:3px;margin-left:20px;margin-top:20px;}
+.skill1 ul{font-family:sans-serif;color:#341539;font-size:18px;text-align:left;margin-left:15px;}
+
+.skill2{width:320px;height:450px;float:left;margin-left:10px;}
+.skill2 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:25px;text-align:left;color:#341539;margin-top:3px;margin-left:20px;margin-top:20px;}
+.skill2 ul{font-family:sans-serif;color:#341539;font-size:18px;text-align:left;margin-left:15px;}
+
+.skill3{width:320px;height:450px;float:left;margin-left:10px;}
+.skill3 h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:25px;text-align:left;color:#341539;margin-top:3px;margin-left:20px;margin-top:20px;}
+.skill3 ul{font-family:sans-serif;color:#341539;font-size:18px;text-align:left;margin-left:15px;}
+
+
+.contact{width:1000px;height:250px;margin-top:90px}
+.contact h1{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:45px;text-align:left;color:white;margin-top:3px;margin-left:20px;}
+.contact h2{font-family:"Trebuchet MS","Segoe UI",sans-serif;font-size:20px;text-align:center;color:white;margin-top:20px;margin-left:20px;margin-top:20px;}
+.contact p{font-family:sans-serif;color:white;font-size:20px;text-align:left;margin-left:15px;}
+#contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+color:#341539
+}
+
+.home, .about, .project, .skill, .contact {
+  scroll-margin-top: 90px;
+}
+
+
+
+
+
+
+
+.row-carousel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* visible area */
+.row-window {
+  width: 900px;        
+  overflow: hidden;
+}
+
+/* horizontal row */
+.row-track {
+  display: flex;
+  gap: 15px;
+  transition: transform 0.4s ease;
+}
+
+/* each UI page */
+.row-item {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+/* navigation arrows */
+.nav-btn {
+  background:linear-gradient(135deg,#3F2A6D,#5A3D8C) ;
+  color: white;
+  border: none;
+  font-size: 22px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background: #A48CF5;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  /* FORCE FULL WIDTH */
+  .container,
+  .home,
+  .about,
+  .project,
+  .skill,
+  .contact,
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5 {
+    width: 100%;
+    height: auto;
+  }
+
+  * {
+    float: none !important;
+  }
+
+  /* MENU */
+  .menunav {
+    width: 100%;
+    left: 0;
+    transform: none;
+    padding: 10px 0;
+  }
+
+  .menu1 h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .menunav1 {
+    display: inline-block;
+    margin: 6px;
+  }
+
+  /* HOME SECTION */
+  .home1, .home2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .home2 img {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+  }
+
+  .resume {
+    margin: 20px auto;
+  }
+
+  /* PROJECT IMAGES */
+  .project42 img,
+  .project1 img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* CAROUSEL */
+  .row-window {
+    width: 100%;
+  }
+
+  .row-item {
+    width: 150px;
+  }
+
+  /* SKILLS STACK */
+  .skill1, .skill2, .skill3 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* FIX MENU CLICK HIDING */
+  .home, .about, .project, .skill, .contact {
+    scroll-margin-top: 150px;
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.menunav {
+    display: flex;
+    flex-wrap: wrap;            justify-content: left; 
+    align-items: left;
+    height: auto;
+   padding:10px 5px;
+  }
+
+  .menu1 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+
+  .menunav1 {
+    width: auto;
+    margin: 6px;
+  }
+
+
+  /* HOME */
+  .home0,
+  .home1,
+  .home2 {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+.home{padding-top: 80px;}
+  .home1 h2 {
+    font-size: 36px;
+  }
+
+  .home2 img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .resume {
+    float: none;
+    margin: 30px auto;
+  }
+
+  /* PROJECT SECTIONS */
+  .project41,
+  .project42,
+  .project43 {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .project42 img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  .skill0,
+.skill1,
+  .skill2,
+  .skill3 {
+    width: 100%;
+    float: none;
+  }
+
+  /* CAROUSEL */
+  .row-window {
+    width: 100%;
+  }
+
+  .row-item {
+    width: 160px;
+  }
+
+    }
+}
